@@ -1,0 +1,64 @@
+.App {
+  box-sizing: border-box;
+  margin:10px;
+}
+.listitems{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+.listitems li{
+  background-color: #0000007d;
+  color: #f5deb3f0;
+  font-size: 20px;
+  margin: 20px;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  
+}
+.listitems li:hover{
+  background-color: red;
+  color:black;
+  transform: scale(1.2);
+}
+.selectlist{
+  margin:10px;
+  padding:10px;
+  font-weight: bold;
+
+}
+.myform{
+  border: 1px solid black;
+  width: 400px;
+  margin:auto;
+}
+.myform input{
+margin:0px 10px;
+padding:7px;
+border-radius: 5px;
+width:200px;
+display:block;
+}
+.searchList{
+  margin:0px 20px;
+}
+.initial{
+margin:10px 0;
+}
+.Optionlist{
+  margin:10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  .btn{
+   position:relative;
+   right: -40px;
+    padding:5px;
+  }
+  nav{
+    text-align: center;
+  }
+  
+
